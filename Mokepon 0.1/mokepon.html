@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+        <title>MOKEPON!</title>
+        <script src="./js/mokepon.js"></script>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <section id="seleccionar-mascota">
+            <h1 class="title"> MOKEPON🔥💧🌱</h1>   
+            <h2 class="subtitulo">ESCOGE TU MASCOTA: </h2>
+
+    <div class="contenedor-tarjetas">
+        <input type="radio" name="mascota" id="Hipogoge"/>
+        <label class="tarjeta-de-mokepon" for="Hipogoge">
+            <p>Hipogoge</p>
+            <img src="./assets/Gemini_Generated_Image_8ml56o8ml56o8ml5.jpeg" alt="">
+        </label>
+
+        <input type="radio" name="mascota" id="Capipepo"/>
+        <label class="tarjeta-de-mokepon" for="Capipepo">
+            <p>Capipepo</p>
+            <img src="./assets/capi.png" alt="">
+        </label>
+        
+        <input type="radio" name="mascota" id="Ratigueya"/>
+        <label class="tarjeta-de-mokepon" for="Ratigueya">
+            <p>Ratigueya</p>
+            <img src="./assets/rati rati.png" alt="">
+        </label>
+    </div>
+            
+            <button id="boton-mascotas">Seleccionar</button>
+        </section>
+
+        <section id="seleccionar-ataque">
+            <h1 class="title"> MOKEPON🔥💧🌱</h1>
+             <h2>ESCOGE TU ATAQUE: </h2>
+            <p>Tu <span id="mascota-jugador">mascota</span> tiene <span id ="vidas-jugador">3</span> vidas</p>
+            <p>La <span id="mascota-rival">mascota</span> rival tiene <span id ="vidas-rival">3</span> vidas</p>
+
+             <p>
+                <button id="boton-fuego">Fuego🔥</button>
+                <button id="boton-agua">Agua💧</button>
+                <button id="boton-tierra">Tierra🌱</button>
+            </p>
+        </section>
+
+        <section id="mensajes">
+        </section>
+
+        <section id="reiniciar">
+            <button id="boton-reinicio">Reiniciar</button>
+        </section>
+
+
+    </body>
+</html>
